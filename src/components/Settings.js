@@ -115,7 +115,7 @@ class SettingsForm extends React.Component {
             className="btn btn-lg btn-primary pull-xs-right"
             type="submit"
             disabled={this.state.inProgress}>
-            Update Settings
+            Atualizar informações
           </button>
 
         </fieldset>
@@ -144,7 +144,7 @@ class Settings extends React.Component {
           <div className="row">
             <div className="col-md-6 offset-md-3 col-xs-12">
 
-              <h1 className="text-xs-center">Your Settings</h1>
+              <h1 className="text-xs-center">Suas Configurações</h1>
 
               <ListErrors errors={this.props.errors}></ListErrors>
 
