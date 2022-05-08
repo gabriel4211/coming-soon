@@ -69,7 +69,7 @@ class SettingsForm extends React.Component {
             <input
               className="form-control"
               type="text"
-              placeholder="URL of profile picture"
+              placeholder="Insira URL da imagem"
               value={this.state.image}
               onChange={this.updateState('image')} />
           </fieldset>
@@ -87,7 +87,7 @@ class SettingsForm extends React.Component {
             <textarea
               className="form-control form-control-lg"
               rows="8"
-              placeholder="Short bio about you"
+              placeholder="Escreva algo sobre você"
               value={this.state.bio}
               onChange={this.updateState('bio')}>
             </textarea>
@@ -106,7 +106,7 @@ class SettingsForm extends React.Component {
             <input
               className="form-control form-control-lg"
               type="password"
-              placeholder="New Password"
+              placeholder="Nova senha"
               value={this.state.password}
               onChange={this.updateState('password')} />
           </fieldset>

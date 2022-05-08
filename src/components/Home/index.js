@@ -54,7 +54,7 @@ class Home extends React.Component {
             <div className="col-md-3">
               <div className="sidebar">
 
-                <p>Popular Tags</p>
+                <p>As tags populares</p>
 
                 <Tags
                   tags={this.props.tags}

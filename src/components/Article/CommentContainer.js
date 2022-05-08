@@ -22,10 +22,10 @@ const CommentContainer = props => {
     return (
       <div className="col-xs-12 col-md-8 offset-md-2">
         <p>
-          <Link to="/login">Sign in</Link>
+          <Link to="/login">fazer login</Link>
           &nbsp;or&nbsp;
-          <Link to="/register">sign up</Link>
-          &nbsp;to add comments on this article.
+          <Link to="/register">Criar conta</Link>
+          &nbsp;adicione comentários a esse post
         </p>
 
         <CommentList
